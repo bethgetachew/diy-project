@@ -35,9 +35,7 @@ nav a:hover {
 
 section {
   /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
-  float: left;
   /* We set a width of 50% to split the screen into two columns */
-  width: 50%;
   height: 450px;
   color: 000000;
   text-align: right;
