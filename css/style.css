@@ -115,7 +115,13 @@ nav a {
   color: #000000;
 }
 
-.button:hover {
-  border-color: white;
-  color: white;
+button {
+  width: 30% background-colour: transparent;
+  border: 2px solid white;
+  border-radius: 10px padding: 5px 0;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  align-center;
 }
+
+border::2px
