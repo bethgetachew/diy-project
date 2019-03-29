@@ -44,11 +44,11 @@ section {
   /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
   height: 450px;
   color: 000000;
-  text-align: right;
+  text-align: left;
 }
 
 .left-aligned {
-  text-align: left;
+  text-align: center;
 }
 
 h2 {
@@ -121,7 +121,7 @@ button {
   border-radius: 10px padding: 5px 0;
   text-transform: uppercase;
   transition: all 0.5s;
-  align-center;
+  align: center;
 }
 
 border::2px
