@@ -13,6 +13,13 @@ body {
   /* border: 5px solid #ff0000; */
 }
 
+.scroll-effect {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 header {
   text-align: center;
   text-transform: uppercase;
@@ -35,7 +42,6 @@ nav a:hover {
 
 section {
   /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
-  /* We set a width of 50% to split the screen into two columns */
   height: 450px;
   color: 000000;
   text-align: right;
@@ -64,12 +70,6 @@ h2 {
 }
 
 /* This styles up elements in html with a class of .big-image */
-.big-image {
-  /* This stretches the background images to cover the sections */
-  background-size: cover;
-  background-position: bottom center;
-}
-
 /* These add different background images to the sections with id attributes */
 #topic-one {
   background-image: url('../images/santorini/santorini4.jpg');
