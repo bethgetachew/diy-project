@@ -114,3 +114,8 @@ nav a {
   font-weight: 600;
   color: #000000;
 }
+
+.button:hover {
+  border-color: white;
+  color: white;
+}
