@@ -44,10 +44,10 @@ section {
   /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
   height: 450px;
   color: 000000;
-  text-align: left;
+  text-align: center;
 }
 
-.left-aligned {
+.center-aligned {
   text-align: center;
 }
 
