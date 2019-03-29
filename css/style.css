@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed');
+
+body {
+  /* Remove user agent (browser) stylesheet styling */
+  background-color: #ffffff;
+  color: #87FF6A;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 50px;
+  font-family: "Patua One", serif;
+  margin: 0;
+  /* border: 5px solid #ff0000; */
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 50px;
+  color: #87FF6A;
+}
+
+nav a {
+  font-weight: 700;
+  color: #87FF6A;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 40px 0 40px
+}
+
+nav a:hover {
+  color: #87FF6A;
+}
+
+section {
+  /* Floating elements sit next to each other on one line as far as there is room. Float: left; makes elements sit next to each other starting on the left. We can also use float: right;  */
+  float: left;
+  /* We set a width of 50% to split the screen into two columns */
+  width: 50%;
+  height: 450px;
+  color: 000000;
+  text-align: right;
+}
+
+.left-aligned {
+  text-align: left;
+}
+
+h2 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* This styles up elements in html with a class of .big-image */
+.big-image {
+  /* This stretches the background images to cover the sections */
+  background-size: cover;
+  background-position: bottom center;
+}
+
+/* These add different background images to the sections with id attributes */
+#topic-one {
+  background-image: url('../images/santorini/santorini4.jpg');
+}
+
+#topic-two {
+  background-image: url('../images/santorini/santorini6 .jpg');
+}
+
+#topic-three {
+  background-image: url('../images/santorini/santorini5.jpg');
+}
+
+div {
+  /* This moves the topic content vertically down inside the sections with text. To adjust position, increase or decrease the percentage*/
+  transform: translateY(20%);
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-family: "Patua One", serif;
+  color: #7e8081;
+}
+
+footer a {
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+form {
+  /* This fixes the floated layout and allows us to add height to the form */
+  clear: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 100px 0 0 0;
+  height: 300px;
+  text-align: center;
+}
+
+nav a {
+  font-weight: 600;
+  color: #000000;
+}
